@@ -1,0 +1,41 @@
+.banner{
+    background-size: cover;
+    height: 641px;
+    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    color: white;
+  
+}
+
+.bannerContent{
+    padding-top: 300px;
+    padding-left: 10px;
+}
+
+.bannerDescription{
+    max-width: 500px;
+}
+
+.bannerButtons{
+    
+    display: flex;
+
+}
+
+.bannerButton{
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bannerButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.fade{
+    height: 7.4rem;
+    
+    background-image: linear-gradient(180deg,transparent, rgba(37,37,37,.61), #111);
+}

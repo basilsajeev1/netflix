@@ -1,0 +1,18 @@
+.rowPost{
+    padding: 5px;
+}
+
+.posters{
+    margin: 5px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    height:250px;
+    margin: 5px;
+}
