@@ -11,7 +11,7 @@ function Banner() {
   useEffect(()=>{
     
     axios.get(`trending/all/day?api_key=${API_KEY}`).then((response)=>{
-      console.log(response.data)
+      //console.log(response.data)
       setTrending(response.data.results[x])
     })
   },[])
@@ -26,7 +26,7 @@ function Banner() {
         </div>
         <h5 className='bannerDescription'>{trending ? trending.overview : ""}</h5>
       </div>
-      <div className='fade'></div>
+      
     </div>
   )
 }

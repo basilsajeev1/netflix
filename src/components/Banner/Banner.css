@@ -34,9 +34,3 @@
     color: white;
 }
 
-.fade{
-    height: 7.4rem;
-    
-    bottom: 15px;
-    background-image: linear-gradient(180deg,transparent, rgba(37,37,37,.1), #111);
-}
