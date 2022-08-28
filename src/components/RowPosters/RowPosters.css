@@ -13,6 +13,11 @@
     display: none;
 }
 .poster{
+    cursor: pointer;
     height:250px;
     margin: 5px;
+}
+
+.poster:hover{
+    transform: scale(1.1);
 }
